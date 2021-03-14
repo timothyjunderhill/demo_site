@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        
+        <head>
+            <title>Dash Galaxy | Obstacles</title>
+            <meta charset="utf-8"/>
+            <link rel="stylesheet" type="text/css" href="style_header.css">
+            <style>
+            html {
+                width:70%;
+                padding-left: 15%;
+                color: #FFFFFF;
+                text-align: center;
+                background-image: url("../DG_images/backgrounds/orange3.png");
+                background-repeat: no-repeat;
+                background-size: 130%;
+            }
+            
+            
+            h1{
+                font-size: 2.5em;
+                margin-top: 90px;
+                margin-bottom: 60px;
+            }
+            
+            h2 {
+                font-size: 2em;
+            }
+            
+            caption {
+                text-align: left;
+                font-size: 1.2em;
+                text-transform: uppercase;
+
+            }
+            
+            #change_log :not(li) {
+                color: #99ff99;
+            }
+            
+            #change_log :nth-child(6) {
+                color: #ccffcc;
+            }
+            
+
+            
+            #picture_box img {
+                float: left;
+                
+            }
+            
+            table {
+
+                background-color: #F7995E;
+                border-collapse: collapse;
+                border: #FFFFFF 10px solid;
+                margin-bottom: 5%;
+            }
+            
+            th {
+                height: 50px;
+            }
+            
+            
+            td, th {
+                width: 10%;
+                border: solid #FBCEB1 2px;
+            }
+            
+            td {
+                height: 90px;
+            }
+            
+            
+            table img{
+                z-index: 5;
+                height: 85%;
+
+                margin-bottom: 5%;
+                margin-top: 5%;
+            }
+            
+
+            
+            .portal_image{
+                height:70%;
+            }
+            
+            .deco_pic {
+                width: 60px;
+                margin: 0% 5% 30px 0%;
+                position:relative;
+                bottom: 0px;
+            }
+            
+            .info p {
+                font-size: 1.2em;
+            }
+            
+            .info {
+                text-align:left;
+                background-color: #F7995E;
+                border: #FFFFFF 10px solid;
+                margin-bottom: 50px;
+                margin-top: 30px;
+                padding: 0% 2% 3% 2%;
+                
+            }
+            
+            
+            
+            </style>
+        </head>
+        
+        <body>
+            
+            <nav ID = "navigation">
+                <a ID = "darkblue" href = "../index.html">Home</a>
+                <a ID = "purple" href = "worldtypes.html">World Types</a>
+                <a ID = "red"  href = "rockets.html">Rockets</a>
+                <a ID = "orange" href = "obstacles.html">Obstacles</a>
+                <a ID = "yellow" href = "howitworks.html">How It Works</a>
+                <a ID = "green" href = "planned.html">Planned Features</a>
+                <a ID = "lightblue" href = "changelog.html">Changelog</a>
+            </nav>
+            
+            <h1> Objects of Dash Galaxy </h1>
+            
+            <img class = "deco_pic" src = "../DG_images/objects/rock_lava.png" alt = "lava rock"/>
+            <img class = "deco_pic" src = "../DG_images/objects/rock_lava.png" alt = "lava rock"/>
+            <img class = "deco_pic" src = "../DG_images/objects/rock_lava.png" alt = "lava rock"/>
+            
+            <div class = "info">
+                <h2> Objects </h2>
+            <p> While exploring the galaxy, a player will come across many different type of objects. Many of these objects will cause damage to the player, such as an asteroid. On the other hand, certain objects may prove advantageous such as a shield. Depending on the game mode and world type, different types of objects will appear.
+            </p>
+            </div>
+
+            <table>
+                <caption>Natural Obstacles</caption>
+                <thead>
+                    <tr>
+                        <th scope = "col">Image</th>
+                        <th scope = "col">Name</th>
+                        <th scope = "col" >When Hit</th>
+                        <th scope = "col">Gamemode</th>
+                        <th scope = "col">World Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src = "../DG_images/objects/rock_black.png" alt = "DarkStone"/></td>
+                        <td>DarkStone</td>
+                        <td>-1 Lives</td>
+                        <td>Planet</td>
+                        <td>Ocean, Lava, Desert</td>
+
+                    </tr>
+                    <tr>
+                        <td><img src = "../DG_images/objects/rock_blue.png" alt = "OceanRock"/></td>
+                        <td>OceanRock</td>
+                        <td>-1 Lives</td>
+                        <td>Planet</td>
+                        <td>Ocean</td>
+
+                    </tr>
+                    <tr>
+                        <td><img src = "../DG_images/objects/rock_color.png" alt = "Gemstone Rock"/></td>
+                        <td>Gemstone Rock</td>
+                        <td>-1 Lives</td>
+                        <td>Space, Planet</td>
+                        <td>Space, Rare</td>
+                    </tr>
+                    <tr>
+                        <td><img src = "../DG_images/objects/rock_green.png" alt = "Forest Moss"/></td>
+                        <td>Forest Moss</td>
+                        <td>-1 Lives</td>
+                        <td>Planet</td>
+                        <td>Forest</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><img src = "../DG_images/objects/rock_lava.png" alt = "LavaRock"/></td>
+                        <td>LavaRock</td>
+                        <td>-2 Lives</td>
+                        <td>Space, Planet</td>
+                        <td>Space, Lava, Rare</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><img src = "../DG_images/objects/palm.png" alt = "Palm Tree"/></td>
+                        <td>Palm Tree</td>
+                        <td>-1 Lives</td>
+                        <td>Planet</td>
+                        <td>Desert, Forest</td>
+                    </tr>
+                    <tr>
+                        <td><img src = "../DG_images/objects/firepalm.png" alt = "FirePalm"/></td>
+                        <td>FirePalm</td>
+                        <td>-1 Lives</td>
+                        <td>Planet</td>
+                        <td>Desert</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><img src = "../DG_images/objects/tree.png" alt = "Pine Tree"/></td>
+                        <td>Pine Tree</td>
+                        <td>-1 Lives</td>
+                        <td>Planet</td>
+                        <td>Forest</td>
+                    </tr>
+                    <tr>
+                        <td><img src = "../DG_images/objects/firetree.png" alt = "FirePine"/></td>
+                        <td>FirePine</td>
+                        <td>-1 Lives</td>
+                        <td>Planet</td>
+                        <td>Desert, Rare</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <table>
+                <caption>Other Obstacles</caption>
+                <thead>
+                    <tr>
+                        <th scope = "col">Image</th>
+                        <th scope = "col">Name</th>
+                        <th scope = "col">When Hit</th>
+                        <th scope = "col">Gamemode</th>
+                        <th scope = "col">World Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img ID = "enemy_image" src = "../DG_images/ships/ship0.png" alt = "Enemy Ship"/></td>
+                        <td>Enemy Ship</td>
+                        <td>-1 Lives (per hit)</td>
+                        <td colspan = "2">Space</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><img src = "../DG_images/objects/geyser.png" alt = "Geyser"/></td>
+                        <td>Geyser</td>
+                        <td>-100 Lives (instant death)</td>
+                        <td>Planet</td>
+                        <td>Forest, Desert, Lava, Rare</td>
+                        
+                    </tr>
+                    <tr>
+                        <td rowspan = "2"><img class = "portal_image" src = "../DG_images/objects/portal.png" alt = "Space Portal"/></td>
+                        <td>Space Portal</td>
+                        <td>*Switches to planet</td>
+                        <td colspan = "2">Space</td>
+                    </tr>
+                    <tr>
+
+                        <td>Planet Portal</td>
+                        <td>*Switches to space</td>
+                        <td>Planet</td>
+                        <td>All</td>
+                    </tr>
+                    <tr>
+                        <td><img src = "../DG_images/objects/sheild.png" alt = "Sheild"/></td>
+                        <td>Sheild</td>
+                        <td>*Generates sheild</td>
+                        <td>Space, Planet</td>
+                        <td>Space, All</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
+
+        </body>
+        
+    </html>
