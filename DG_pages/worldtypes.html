@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        
+        <head>
+            <title>Dash Galaxy | World Types</title>
+            <meta charset="utf-8"/>
+            <link rel="stylesheet" type="text/css" href="style_header.css">
+            <style>
+            html {
+                color: #FFFFFF;
+                text-align: center;
+                width: 70%;
+                padding-left:15%;
+                background-image: url("../DG_images/backgrounds/purple2.png");
+                background-repeat: repeat;
+                font-size: 1em;
+            }
+            
+            h1{
+                font-size: 2.5em;
+                margin-top: 90px;
+                margin-bottom: 60px;
+            }
+            
+            
+            .world_types {
+                margin-top:10px;
+                text-align: left;
+                font-weight: 100;
+   
+            }
+            
+            
+            .contentbox{
+                position: absolute;
+                top: 885px;
+                width:67%;
+                background-color: #C17BBE;
+                border-collapse: collapse;
+                border: #FFFFFF 10px solid;
+                overflow-y: scroll;
+            }
+            
+
+            
+            th {
+                height: 50px;
+            }
+            
+            
+            td, th {
+                text-align: center;
+                width: 15%;
+            }
+            
+            .deco_pic {
+                width: 60px;
+                margin: 0% 5% 60px 0%;
+                position:relative;
+                bottom: 0px;
+            }
+            
+            .world_types {
+                height: 370px;
+                overflow: scroll;
+                background-color: #C17BBE;
+                border: #FFFFFF 10px solid;
+            }
+            
+            .info {
+                font-size: 1.2em;
+                float: left;
+                width: 40%;
+                margin-left: 50px;
+                margin-bottom: 15px;
+            }
+            
+            #planet_table img{
+                z-index: 5;
+                height: 110px;
+                border-radius: 100%;
+                margin: 10%
+            }
+            
+            
+  
+            
+            #tablecandy{
+                position: absolute;
+                width: 120px;
+                top: 785px;
+                right: 200px;
+
+            }
+            
+            #tablecandysmall{
+                position: absolute;
+                width: 70px;
+                top: 825px;
+                left: 220px;
+                
+            }
+            
+            .scrollcontent {
+                width: 860px;
+                height: 300px;
+                overflow-y: scroll;
+            }
+            
+            .scrollcontent img {
+                float: left;
+                height: 300px;
+            }
+            
+            .scrollsegment{
+                float:left;
+                width: 525px;
+                height: 283px;
+                background-color: #C17BBE;
+                font-size: 1.3em;
+                font-weight: 900;
+                padding: 2% 2% 0% 2%;
+            }
+            
+            .scrollsegment p{
+                width: 100%;
+
+            }
+            
+
+            
+            
+            #rare {
+                background-color: #C7F7BB;
+                color: #4E4E4E;
+            }
+            
+            #ocean {
+                background-color: #4F93F6;
+                color: #EDD362;
+            }
+            
+            #lava {
+                background-color: #1A1A1A;
+                color: #E5582B;
+            }
+            #forest {
+                background-color: #B8F6A9;
+                color: #689A29;
+            }
+            #candy {
+                background-color:#9AABF9;
+            }
+            #desert {
+                background-color: #E8DA9B;
+            }
+
+
+                
+            </style>
+        </head>
+        
+        <body>
+
+            <nav ID = "navigation">
+                <a ID = "darkblue" href = "../index.html">Home</a>
+                <a ID = "purple" href = "worldtypes.html">World Types</a>
+                <a ID = "red"  href = "rockets.html">Rockets</a>
+                <a ID = "orange" href = "obstacles.html">Obstacles</a>
+                <a ID = "yellow" href = "howitworks.html">How It Works</a>
+                <a ID = "green" href = "planned.html">Planned Features</a>
+                <a ID = "lightblue" href = "changelog.html">Changelog</a>
+            </nav>
+
+            <h1> World Types of Dash Galaxy </h1>
+            <img class = "deco_pic" src = "../DG_images/objects/candyrock.png" alt = "candy rock"/>
+            <img class = "deco_pic" src = "../DG_images/objects/candyrock.png" alt = "candy rock"/>
+            <img class = "deco_pic" src = "../DG_images/objects/candyrock.png" alt = "candy rock"/>
+        
+            <div class = "world_types">
+
+                <div class = "info">
+                    <h2>Gamemodes</h2>
+                    <p>Two main game modes exist: space mode and planet mode. In space mode, the player will have to
+                    dodge asteroids and other spaceships. In planet mode, a planet will be generated
+                    with unique threats to challenge the player. </p>
+                </div>
+                <div class = "info">
+                    <h2>World Types</h2>
+                    <p>Each planet is created based off a world type.
+                    Each world type has a unique chance of being generated. Six world types are commonly generated: Forest, Ocean, Lava, Desert, Candy, and Rare World. Each world type has unique threats and obstacles to dodge.   </p>
+                </div>
+                <img src = "../DG_images/objects/candycane.png" alt = "candycane" ID = "tablecandy"/>
+                <img src = "../DG_images/objects/candycane.png" alt = "candycane" ID = "tablecandysmall"/>
+                <div class = "contentbox">
+                    <div class = "scrollcontent">
+                        <img src = "../DG_images/worlds/rare.jpeg" alt = "rare world"/>
+                        <div class = "scrollsegment" ID = "rare">
+                            <h2>Rare World</h2>
+                            <p>"They say you'll know when you find a Rare World. At least thats what they say... I haven't found one yet."</p>
+                            <p>Rarity 1%</p>
+                        </div>
+                        <img src = "../DG_images/worlds/lava.jpeg" alt = "lava world"/>
+                        <div class = "scrollsegment" ID = "lava">
+                            <h2>Lava World</h2>
+                            <p>"Hey, isn't this where that Darth Vader thing happened?"</p>
+                            <p>Rarity 20%</p>
+                            
+                        </div>
+                        <img src = "../DG_images/worlds/forest.jpeg" alt = "forest world"/>
+                        <div class = "scrollsegment" ID = "forest">
+                            <h2>Forest World</h2>
+                            <p>"Apparently smashing into pine trees isn't good for delicate spacecrafts."</p>
+                            <p>Rarity 10%</p>
+                            
+                        </div>
+                        <img src = "../DG_images/worlds/candy.jpeg" alt = "candy world"/>
+                        <div class = "scrollsegment" ID = "candy">
+                            <h2>Candy World</h2>
+                            <p>"You would think dodging candy canes was weird enough but then the enemies started shooting cookies!"</p>
+                            <p>Rarity 20%</p>
+                            
+                        </div>
+                        <img src = "../DG_images/worlds/desert.jpeg" alt = "desert world"/>
+                        <div class = "scrollsegment" ID = "desert">
+                            <h2>Desert World</h2>
+                            <p>"Don't go here, I still have sand in my spacecraft from three years ago..."</p>
+                            <p>Rarity 19%</p>
+                            
+                        </div>
+                        <img src = "../DG_images/worlds/ocean.jpeg" alt = "ocean world"/>
+                        <div class = "scrollsegment" ID = "ocean">
+                            <h2>Ocean World</h2>
+                            <p>"Look an island! Oh... Nevermind... It's just another wave..."</p>
+                            <p>Rarity 20%</p>
+                            
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </body>
+
+    </html>
